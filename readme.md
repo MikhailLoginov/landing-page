@@ -1,6 +1,6 @@
 # Interior HTML Pages
 
-This project is a training landing page project from prepeared design
+This project is a training landing page from prepeared design
 
 ## Current progress
 

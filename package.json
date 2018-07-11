@@ -1,5 +1,5 @@
 {
-  "name": "interior",
+  "name": "Landing-Page",
   "version": "1.0.0",
   "description": "HTML pages that are made for learning purpose from prepared designs",
   "main": "index.js",
@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MikhailLoginov/interior.git"
+    "url": "git+https://github.com/MikhailLoginov/landing-page.git"
   },
   "author": "Mikhail Loginov (shadoww2131@gmail.com)",
   "license": "MIT",
-  "homepage": "https://github.com/MikhailLoginov/interior#readme",
+  "homepage": "https://github.com/MikhailLoginov/landing-page#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-preset-es2015": "^6.18.0",
