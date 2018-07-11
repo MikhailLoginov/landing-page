@@ -3,20 +3,19 @@ mixin header()
   HEADER
     .container
       .header
-        +e.A(href="/index.html")
-          img(src="/assets/images/logo.png" alt="logo")
+        +b.A(href="/index.html").logo
+          +e.SPAN.strong company
+          | name
         NAV
           ul.nav-menu
             li
-              a(href="/index.html") Home
+              a(href="/index.html") HOME
             li
-              a(href="/products.html") Products
+              a(href="/products.html") ABOUT
             li
-              a(href="#") History
+              a(href="#") BLOG
             li
-              a(href="/product-details.html") Showroom
+              a(href="/product-details.html") PORTFOLIO
             li
-              a(href="/contacts.html") Contact
-          a(href="#")
-            img(src="/assets/images/search.png" alt="search")
+              a(href="/contacts.html") CONTACT
   // Header ends 
