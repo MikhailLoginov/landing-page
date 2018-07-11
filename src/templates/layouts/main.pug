@@ -16,10 +16,7 @@ doctype html
 html(lang='en')
   include ../blocks/head/head
   body
-    .svg-sprite
-      include ../blocks/sprite/svg.svg
     +header()
     block content
     +footer()
     block scripts
-    +scripts(['build.js'])
