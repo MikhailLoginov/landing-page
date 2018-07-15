@@ -1,4 +1,4 @@
-# Interior HTML Pages
+# Landing Page
 
 This project is a training landing page from prepeared design
 

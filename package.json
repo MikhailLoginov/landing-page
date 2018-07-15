@@ -1,5 +1,5 @@
 {
-  "name": "Landing-Page",
+  "name": "landing-page",
   "version": "1.0.0",
   "description": "HTML pages that are made for learning purpose from prepared designs",
   "main": "index.js",
@@ -47,6 +47,7 @@
     "gulp-w3cjs": "^1.2.0",
     "gulp-zip": "^3.2.0",
     "lost": "^6.8.0",
+    "normalize.css": "^8.0.0",
     "plop": "^1.6.0",
     "postcss": "^5.0.21",
     "poststylus": "^0.2.3",
