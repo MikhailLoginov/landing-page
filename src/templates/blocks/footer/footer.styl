@@ -9,6 +9,9 @@ footer
     flex-wrap wrap
     justify-content space-between
     margin 0 34px 0 0
+    +below(960px)
+      flex-direction column
+      text-align center
     a
       color white
       
@@ -16,6 +19,9 @@ footer
     width 210px
     display flex
     flex-direction column
+    +below(960px)
+      margin-top 50px
+      width 100%
   &__address
     font-size 14px
     margin 0 0 22px 0
@@ -31,6 +37,8 @@ footer
 
   .logo
     margin 35px 15px 0 8px
+    +below(960px)
+      margin-left 0
     font-size 30px
     font-weight 400
     font-family Poiret One, cursive

@@ -8,9 +8,13 @@
   padding 120px 0 126px 0
   display flex
   justify-content space-between
+  +below(1000px)
+    flex-wrap wrap
   &__info
     width 48.9%
     margin 0 0 0 5px
+    +below(768px)
+      width 100%
     h2
       margin-bottom 39px
     p
@@ -22,11 +26,18 @@
   &__skills
     width 48.9%
     margin 0 0 0 28px
+    +below(1000px) 
+      margin 0
+    +below(768px)
+      width 100%
+      margin-top 60px
     h2
       margin-bottom 37px
 
   .a-view
     margin 35px 0 0 1px
+    +below(500px)
+      margin 0 auto
 
 .skill
   margin 0 0 24.5px 0

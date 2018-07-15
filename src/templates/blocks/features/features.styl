@@ -1,12 +1,13 @@
 .features
   text-align center
-  margin 120px 0 102px 0
+  margin 120px 0 82px 0
   h2
-    margin-bottom 93px
+    margin-bottom 73px
   &__items
     display flex
     justify-content space-between
-    +below(1000px)
+    flex-wrap wrap
+    +below(1100px)
       justify-content space-around
 
 .feature
@@ -17,6 +18,7 @@
   flex-direction column
   align-items center
   padding 0 10px
+  margin 20px 0
   &__circle
     width 64px
     height 64px

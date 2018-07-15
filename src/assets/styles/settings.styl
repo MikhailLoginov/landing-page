@@ -8,6 +8,11 @@ body
 .container
   max-width 1060px
   margin 0 auto
+  padding 0 20px
+  +below(1100px)
+    padding 0 10px
+  +below(400px)
+    padding 0 5px
 
 h1
   font-family Cabin, sans-serif
@@ -17,6 +22,12 @@ h1
   letter-spacing -0.05px
   line-height 60px
   margin 0
+  +below(768px)
+    font-size 44px
+    line-height 50px
+  +below(500px)
+    font-size 36px
+    line-height 40px
 
 h2
   font-family Cabin, sans-serif
@@ -25,9 +36,7 @@ h2
   letter-spacing -0.1px
   margin 0
   +below(768px)
-    font-size 24px
-  +below(500px)
-    font-size 18px
+    font-size 36px
 
 h3
   font-size 18px
