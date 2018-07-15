@@ -9,7 +9,9 @@ footer
     flex-wrap wrap
     justify-content space-between
     margin 0 34px 0 0
-    +below(960px)
+    +below(1000px)
+      margin 0
+    +below(880px)
       flex-direction column
       text-align center
     a
@@ -19,7 +21,7 @@ footer
     width 210px
     display flex
     flex-direction column
-    +below(960px)
+    +below(880px)
       margin-top 50px
       width 100%
   &__address

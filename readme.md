@@ -2,15 +2,6 @@
 
 This project is a training landing page from prepeared design
 
-## ToDo List:
-- 2 more blocks
-- pixel perfect
-- adaptive/mobile
-- validator
-- google page speed
-- top nav menu must lead to respectful sections
-- think about more interesting hover/active/transition effects
-
 # Local setup
 
 1. Requirements
