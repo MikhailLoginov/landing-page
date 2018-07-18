@@ -1,0 +1,16 @@
+mixin modal-contacts()
+  // Hero starts 
+  +b(id="contacts").modal-contacts
+    +e.A(href="#close" title="Close").close X
+    +e.H3.ttl Let's get aquanted
+    +e.FORM(method="post").form
+      +e.name
+        label(for="name") Your name
+        input(type="text" id="name" name="name")
+      +e.email
+        lable(for="email") Your e-mail
+        input(type="email" id="email" name="email")
+      +e.text
+        textarea
+      +e.BUTTON(type="submit").btn-submit Submit
+  // Hero ends 
