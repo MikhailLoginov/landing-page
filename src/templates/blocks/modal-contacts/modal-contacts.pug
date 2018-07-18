@@ -1,16 +1,17 @@
 mixin modal-contacts()
-  // Hero starts 
+  // Modal Contacts starts 
   +b(id="contacts").modal-contacts
     +e.A(href="#close" title="Close").close X
-    +e.H3.ttl Let's get aquanted
+    +e.H3.ttl Let's work together!
     +e.FORM(method="post").form
       +e.name
-        label(for="name") Your name
-        input(type="text" id="name" name="name")
+        +e.LABEL(for="name").name-label Your name
+        +e.INPUT(type="text" id="name" name="name").input-name
       +e.email
-        lable(for="email") Your e-mail
-        input(type="email" id="email" name="email")
+        +e.LABEL(for="email").email-label Your e-mail
+        +e.INPUT(type="email" id="email" name="email").input-email
       +e.text
-        textarea
+        +e.sub-ttl Tell us what you need
+        +e.TEXTAREA(name="textarea").textarea
       +e.BUTTON(type="submit").btn-submit Submit
-  // Hero ends 
+  // Modal Contacts ends 
