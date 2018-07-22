@@ -19,11 +19,15 @@
   margin auto
   pointer-events none
   width 450px
+  +below(550px)
+    width 280px
   margin 10% auto
   height 320px
   background rgba(210,210,210,0.95)
   transition opacity 400ms ease-in
   padding 10px 40px
+  +below(550px)
+    padding 10px 10px
   color black
   pointer-events auto
     
@@ -31,6 +35,9 @@
     position absolute
     right -15px
     top -15px
+    +below(570px)
+      right 10px
+      top 8px
     text-decoration none
     color black
     font-weight 700
@@ -52,14 +59,22 @@
   &__name-label
     display inline-block
     margin-right 25px
+    +below(550px)
+      margin-right 10px
     text-align right
     width 200px
+    +below(550px)
+      width 80px
 
   &__email-label
     display inline-block
     margin-right 25px
+    +below(550px)
+      margin-right 10px
     text-align right
     width 200px
+    +below(550px)
+      width 80px
 
   &__text
     display flex
@@ -67,8 +82,12 @@
   
   &__sub-ttl
     width 200px
+    +below(550px)
+      width 80px
     text-align right
     margin-right 25px
+    +below(550px)
+      margin-right 10px
 
   &__textarea
     background transparent

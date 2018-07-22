@@ -24,14 +24,32 @@
     height 64px
     border-radius 50%
     margin -25px 0 10px 0
-    &.feature-1
-      background #4ecb8c url("/assets/images/user.png") no-repeat center center
-    &.feature-2
-      background #4ecb8c url("/assets/images/flag.png") no-repeat center center
-    &.feature-3
-      background #4ecb8c url("/assets/images/brush.png") no-repeat center center
+    background #4ecb8c
+    svg
+      margin-top 16px
+      width 30px
+      height 30px
+      fill white
+      &.user
+        width 25px
+        height 25px
+        margin-top 18px
+      &.flag
+        width 25px
+        height 25px
+        margin-top 20px
+  &.feature-1
+    width 25px
+    height 25px
+  &.feature-2
+    width 25px
+    height 25px
+    margin-top 20px
   h3
     margin 10px 0 0 0
   p
     margin 14px 0 50px 0
     line-height 24px
+
+svg
+  display inline-block
